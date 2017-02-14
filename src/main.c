@@ -1,6 +1,7 @@
 
+#error CA BUILD PAS
 
 int main()
 {
-	return 2;
+	return 0;
 }
