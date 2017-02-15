@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /* Useless comment */
 int main()
 {
 
 	printf("Hello World\n");
-	return 0;
+	return EXIT_SUCCESS;
 }
