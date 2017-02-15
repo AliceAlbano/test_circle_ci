@@ -1,0 +1,11 @@
+machine:
+  environment:
+    CMAKE_FILE: ./Makefile
+dependencies:
+test:
+
+  override:
+    - make && ./main:
+        parallel: false
+        files:
+          - ./Makefile
